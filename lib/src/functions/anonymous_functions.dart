@@ -10,7 +10,8 @@ void main() {
 
   InvokeFunction invokeFunction = new InvokeFunction();
   invokeFunction.invoke(data, (Object i, {int age, int num}) {
-
+    print(i.hashCode);
+    print("age = $age");
   });
 }
 
