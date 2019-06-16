@@ -1,22 +1,6 @@
-A library for Dart developers.
+这是我学Dart过程中的笔记，所有的注释都是我加的，有些比较简单的，或者我不知道怎么翻译的地方，或者我不想翻译的地方，就直接写了英文注释。
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+第一阶段在学习 https://dart.dev/guides/language/language-tour 上的内容；
 
-## Usage
+lib/src包下的目录都是根据上面这个网址的目录建的，但是包内的文件，不一定和网址上的目录里的章节一致。
 
-A simple usage example:
-
-```dart
-import 'package:bicycle/bicycle.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
