@@ -1,5 +1,5 @@
+// Dart的异常系统和Java类似。不同之处在于Dart中on关键字和Java中的catch关键字作用类似，而Dart中的catch关键字用于捕获所有异常。
 import 'dart:io';
-
 void main() {
   try {
     try {
