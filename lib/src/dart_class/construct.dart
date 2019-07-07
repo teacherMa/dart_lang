@@ -51,6 +51,7 @@ class AndroidVersion {
   }
 
   // Dart中，好像不存在Java的OverLoad，某个名字的函数只能有一个，所以需要在构造函数后面再加字符串的形式，这叫做Named constructors
+  // 在参数列表中使用this.xxx 为 xxx 赋值的方法只能在构造函数中使用。
   AndroidVersion.name(this.versionCode, this.version) {
     print("AndroidVersion name named construct");
   }
